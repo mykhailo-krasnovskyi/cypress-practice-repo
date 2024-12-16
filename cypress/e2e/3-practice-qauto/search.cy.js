@@ -5,12 +5,7 @@
 
 describe('example to-do app', () => {
     beforeEach(() => {
-        cy.visit('https://qauto.forstudy.space', {
-            auth: {
-                username: 'guest',
-                password: 'welcome2qauto',
-            }
-        })
+        cy.visit('/');
 
     })
 
@@ -98,7 +93,7 @@ describe('example to-do app', () => {
         cy.log(message);
     });
 
-
+icon-facebook
     // it.only('then', () => {
     //     cy.get('h1').invoke('text').then((text) => {
     //        cy.contains(text).should('be.visible');
